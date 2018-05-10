@@ -1,0 +1,5 @@
+<!--pages/index/index.wxml-->
+<view class="user-info" style="background-image: url('http://pic.k73.com/up/article/2015/0803/162645_92450463.png')">
+  <view class="user-avatarUrl" style="background-image: url('{{userInfo.avatarUrl}}')"></view>
+  <text class="user-desc">Coder & Gamer</text>
+</view>

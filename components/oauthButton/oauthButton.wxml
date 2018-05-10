@@ -1,0 +1,8 @@
+<view>
+  <button wx:if="{{needOauth}}" class="oauth-button" open-type="getUserInfo" bindgetuserinfo="userInfoHandler" style="{{buttonStyle}}">
+    <slot></slot>
+  </button>
+  <button wx:if="{{!needOauth}}" class="oauth-button" bindtap="triggerOauthFinishEvent" style="{{buttonStyle}}">
+    <slot></slot>
+  </button>
+</view>
